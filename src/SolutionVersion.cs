@@ -6,10 +6,11 @@ using System.Reflection;
 [assembly: AssemblyProductAttribute("NewId")]
 [assembly: AssemblyVersionAttribute("3.0.0.0")]
 [assembly: AssemblyFileVersionAttribute("3.0.0.0")]
-[assembly: AssemblyInformationalVersionAttribute("3.0.0.0")]
+[assembly: AssemblyInformationalVersionAttribute("3.0.0.0 (features/netcore/c2b105e2)")]
+[assembly: AssemblyMetadataAttribute("githash","c2b105")]
 namespace System {
     internal static class AssemblyVersionInformation {
         internal const string Version = "3.0.0.0";
-        internal const string InformationalVersion = "3.0.0.0";
+        internal const string InformationalVersion = "3.0.0.0 (features/netcore/c2b105e2)";
     }
 }
